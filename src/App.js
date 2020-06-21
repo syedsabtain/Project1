@@ -4,7 +4,7 @@ import './App.css';
 
 import HistoryComponent from './HistoryComponent'
 import FormCompnent from './FormComponent'
-import './bootstrap/bootstrap.min.css'
+import './bootstrap.min.css'
 import BalanceCOmponent from './BalanceComponent';
 import {Globaldataprovider} from './DataContext'
 
