@@ -9,7 +9,7 @@ const initialtransaction = [
 export const Globaldata = createContext(initialtransaction);
 
 
-export const Gloabldataprovider =({children})=>
+export const Globaldataprovider =({children})=>
 {
     let[state,dispatch] = useReducer(Datareducer,initialtransaction);
 

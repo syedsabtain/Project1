@@ -6,12 +6,12 @@ import HistoryComponent from './HistoryComponent'
 import FormCompnent from './FormComponent'
 import './bootstrap/bootstrap.min.css'
 import BalanceCOmponent from './BalanceComponent';
-import {Gloabldataprovider} from './DataContext'
+import {Globaldataprovider} from './DataContext'
 
 function App() {
     
     return (
-        <Gloabldataprovider>
+        <Globaldataprovider>
             <div className="container text-center  ">
                 <div className=" specfic shadow-lg">
                     <div className="mt-5 font-weight-bolder  pt-1     rounded font-size col-md-12">Expense Tracker</div>
@@ -27,7 +27,7 @@ function App() {
 
                 </div>
             </div>
-            </Gloabldataprovider>
+            </Globaldataprovider>
     )
 }
 
