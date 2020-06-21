@@ -3,7 +3,7 @@ import {Globaldata} from './DataContext'
 
 const BalanceCOmponent = () => {
 
-    let {transaction, addTransaction} = useContext(Globaldata);
+    let {transaction, } = useContext(Globaldata);
 
     const getincome = () => {
         let income = 0;

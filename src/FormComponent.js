@@ -2,7 +2,7 @@ import React, {useContext, useState} from 'react'
 import {Globaldata} from './DataContext'
 
 function FormComponent() {
-    let {transaction,addDelete} = useContext(Globaldata);
+    let {addDelete} = useContext(Globaldata);
     let [newamount, setAmount] = useState(0);
     let [newdescription, setDescription] = useState('');
     let [newid, setID] =useState(2)
@@ -11,7 +11,7 @@ function FormComponent() {
     const Handlesubmit =(e)=>
     {
         e.preventDefault();
-        if(newamount==0||newdescription==' '||newdescription>0||newdescription<0)
+        if(newamount===0||newdescription===' '||newdescription>0||newdescription<0)
         {
             alert("\n Text field values can't be empty of just a space Please try to enter meaning full description \n Text Field can't start with 0 or negative 0 \n Amount Field can't be equal to zer0");
             
