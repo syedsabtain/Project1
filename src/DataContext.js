@@ -3,7 +3,7 @@ import Datareducer from './Datareducer'
 
 
 const initialtransaction = [
-    
+    {amount:500, amountdescription:'cash'},
     
 ]
 export const Globaldata = createContext(initialtransaction);

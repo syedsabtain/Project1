@@ -35,3 +35,18 @@
 {
   display: none;
 }
+button.btn_hover:hover
+{
+  font-size: 95%;
+  background-color: red;
+  color: white;
+}
+div.div_hover:hover
+{
+  font-size: 120%;
+  font-weight: bold;
+}
+.marg
+{
+  margin-left: 0;
+}
